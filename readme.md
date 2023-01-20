@@ -8,15 +8,15 @@ Republic of Turkey identity number validator.
 
 ```js
 const turkishid = require('turkishid');
-turkishid.ValidateId(11111111111);
+turkishid.ValidateId(11111111111); // returns false
 ```
 
 #### Validate Name
 
 ```js
 const turkishid = require('turkishid');
-turkishid.ValidateName("Onur Ravli"); // returns true
-turkishid.ValidateName("On2ur Ravli@"); // returns false
+turkishid.ValidateName('Onur Ravli'); // returns true
+turkishid.ValidateName('On2ur Ravli@'); // returns false
 ```
 
 ### License
