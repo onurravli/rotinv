@@ -1,5 +1,5 @@
 {
-	"name": "tr-id",
+	"name": "rotinv",
 	"version": "0.0.1",
 	"description": "Republic of Turkey identity number validator.",
 	"main": "index.js",
@@ -9,17 +9,17 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/onurravli/tr-id.git"
+		"url": "git+https://github.com/onurravli/rotinv.git"
 	},
 	"keywords": [
-		"tr-id"
+		"rotinv"
 	],
 	"author": "Onur Ravli",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/onurravli/tr-id/issues"
+		"url": "https://github.com/onurravli/rotinv/issues"
 	},
-	"homepage": "https://github.com/onurravli/tr-id#readme",
+	"homepage": "https://github.com/onurravli/rotinv#readme",
 	"devDependencies": {
 		"@types/jest": "^29.2.6",
 		"@typescript-eslint/eslint-plugin": "^5.48.2",

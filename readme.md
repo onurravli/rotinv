@@ -1,4 +1,4 @@
-## tr-id
+## rotinv
 
 Republic of Turkey identity number validator.
 
@@ -7,16 +7,16 @@ Republic of Turkey identity number validator.
 #### Validate ID Number
 
 ```js
-const trid = require('tr-id');
-trid.ValidateId(11111111111); // returns false
+const rotinv = require('rotinv');
+rotinv.ValidateId(11111111111); // returns false
 ```
 
 #### Validate Name
 
 ```js
-const trid = require('tr-id');
-trid.ValidateName('Onur Ravli'); // returns true
-trid.ValidateName('On2ur Ravli@'); // returns false
+const rotinv = require('rotinv');
+rotinv.ValidateName('Onur Ravli'); // returns true
+rotinv.ValidateName('On2ur Ravli@'); // returns false
 ```
 
 ### License
