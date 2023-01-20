@@ -1,4 +1,4 @@
-## TurkishId
+## tr-id
 
 Republic of Turkey identity number validator.
 
@@ -7,16 +7,16 @@ Republic of Turkey identity number validator.
 #### Validate ID Number
 
 ```js
-const turkishid = require('turkishid');
-turkishid.ValidateId(11111111111); // returns false
+const trid = require('tr-id');
+trid.ValidateId(11111111111); // returns false
 ```
 
 #### Validate Name
 
 ```js
-const turkishid = require('turkishid');
-turkishid.ValidateName('Onur Ravli'); // returns true
-turkishid.ValidateName('On2ur Ravli@'); // returns false
+const trid = require('tr-id');
+trid.ValidateName('Onur Ravli'); // returns true
+trid.ValidateName('On2ur Ravli@'); // returns false
 ```
 
 ### License

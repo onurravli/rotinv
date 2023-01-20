@@ -1,24 +1,25 @@
 {
-	"name": "turkishid",
+	"name": "tr-id",
 	"version": "0.0.1",
 	"description": "Republic of Turkey identity number validator.",
 	"main": "index.js",
+	"private": false,
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/onurravli/TurkishId.git"
+		"url": "git+https://github.com/onurravli/tr-id.git"
 	},
 	"keywords": [
-		"TurkishId"
+		"tr-id"
 	],
 	"author": "Onur Ravli",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/onurravli/TurkishId/issues"
+		"url": "https://github.com/onurravli/tr-id/issues"
 	},
-	"homepage": "https://github.com/onurravli/TurkishId#readme",
+	"homepage": "https://github.com/onurravli/tr-id#readme",
 	"devDependencies": {
 		"@types/jest": "^29.2.6",
 		"@typescript-eslint/eslint-plugin": "^5.48.2",
