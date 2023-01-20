@@ -1,7 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.validate = void 0;
-const validate = (id) => {
+exports.ValidateName = exports.ValidateId = void 0;
+const ValidateId = (id) => {
     return false;
 };
-exports.validate = validate;
+exports.ValidateId = ValidateId;
+const ValidateName = (name) => {
+    return /^[A-Za-z\s]*$/.test(name);
+};
+exports.ValidateName = ValidateName;
