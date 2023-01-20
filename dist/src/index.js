@@ -41,6 +41,9 @@ const validateId = (id) => {
 };
 exports.validateId = validateId;
 const validateName = (name) => {
+    if (name.length == 0) {
+        return false;
+    }
     return /^[A-Za-z\s]*$/.test(name);
 };
 exports.validateName = validateName;
